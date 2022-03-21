@@ -6,7 +6,7 @@ package com.hzh.designpatterns.singleton;
  */
 public class Singleton_06 {
 
-    private static Singleton_06 INSTANCE;
+    private static volatile Singleton_06 INSTANCE;
 
     private Singleton_06() {
 
