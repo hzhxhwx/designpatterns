@@ -6,6 +6,7 @@ package com.hzh.designpatterns.singleton;
  */
 public class Singleton_06 {
 
+    //jit优化成本地代码,会发生指令重排
     private static volatile Singleton_06 INSTANCE;
 
     private Singleton_06() {
